@@ -1,11 +1,11 @@
 using EspacioProducto;
 namespace EspacioPresupuestoDetalle;
 public class PresupuestoDetalle{
-    Producto productos;
-    int cantidad;
+    public Producto producto{ get; set; }
+    public int cantidad{ get; set; }
 
-    public PresupuestoDetalle(Producto Productos, int Cantidad){
-        Productos = productos;
+    public PresupuestoDetalle(Producto Producto, int Cantidad){
+        Producto = producto;
         Cantidad = cantidad;
     }
 }
